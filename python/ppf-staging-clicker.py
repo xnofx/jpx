@@ -12,6 +12,7 @@ if len(sys.argv) >= 2:
   @client.on(events.NewMessage("https://t.me/joinchat/HZLgHnK8TQAyZWQy"))
   async def new_message_event_handler(event):
     global last_message_id
+    print(last_message_id)
 
     if event.message.buttons is not None and event.message.id > last_message_id:
       last_message_id = event.message.id
