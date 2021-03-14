@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "socket.io-client": "^4.0.0"
   }
 }
