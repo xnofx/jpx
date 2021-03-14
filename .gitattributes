@@ -30,7 +30,10 @@
 *.tsv      text
 *.txt      text
 *.sql      text
+<<<<<<< HEAD
 *.ps1      text
+=======
+>>>>>>> origin/johnpantini
 
 # Graphics
 *.png      binary
@@ -54,6 +57,10 @@
 # These are explicitly windows files and should use crlf
 *.bat      text eol=crlf
 *.cmd      text eol=crlf
+<<<<<<< HEAD
+=======
+*.ps1      text eol=crlf
+>>>>>>> origin/johnpantini
 
 # Serialisation
 *.json     text
